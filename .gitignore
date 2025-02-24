@@ -1,11 +1,16 @@
-# Directories
-.vs/
-Binaries/
+# binaries
+build/
 
-# Files
+# visual studio
+.vs/
 *.vcxproj
 *.vcxproj.user
 *.vcxproj.filters
 *.sln
-*.log
+
+# makefiles
 Makefile
+
+# other files
+*.log
+
