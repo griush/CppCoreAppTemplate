@@ -14,7 +14,7 @@ workspace (wks_name)
 
     -- workspace-wide build options for MSVC
     filter "system:windows"
-        buildoptions { "/EHsc", "/Zc:preprocessor", "/Zc:__cplusplus" }
+        buildoptions { "/EHsc", "/Zc:preprocessor", "/Zc:__cplusplus", "/utf-8" }
 
 
 group "core"
